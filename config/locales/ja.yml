@@ -4,6 +4,7 @@ ja:
       restaurant:
         name: '店名'
         telephone_number: '電話番号'
+        introduction: '店舗紹介'
         address: '住所'
         genre_ids: 'ジャンル'
         has_private_room: '個室'

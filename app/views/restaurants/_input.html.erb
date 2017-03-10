@@ -19,7 +19,12 @@
 
     <div class="form-group">
       <%= f.label :name %><br/>
-      <%= f.text_field :name, autofocus: true, class: 'form-control' %>
+      <%= f.text_field :name, rows: 2, autofocus: true, class: 'form-control' %>
+    </div>
+     
+    <div class="form-group">
+      <%= f.label :introduction %><br/>
+      <%= f.cktext_area :introduction, autofocus: true, class: 'form-control' %>
     </div>
 
     <div class="form-group">
