@@ -17,5 +17,6 @@ class Restaurant < ActiveRecord::Base
   validates :seat_count, presence: true, numericality: true
   validates_numericality_of :seat_count, greater_than: 0
   validates :open_date, presence: true
+  validates :introduction, presence: true 
   
 end

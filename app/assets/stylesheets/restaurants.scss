@@ -84,6 +84,17 @@
              max-height: 100%;
            }
          }
+         
+          .introduction p{
+            font-size: 12px;
+            font-weight: bold;
+            width: 800px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-left: 5px;
+         }
+         
          .genres {
 
          }
